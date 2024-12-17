@@ -4,7 +4,7 @@ pipeline{
   {
     steps
     {
-      echo 'building proj'
+      echo 'building project'
     }
   }
 }
