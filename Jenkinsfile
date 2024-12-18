@@ -6,7 +6,7 @@ pipeline{
     steps
     {
       echo 'building project'
-      sh "\"${tool 'MSBuild-2022'}\" WebApplication1.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+    //  sh "\"${tool 'MSBuild-2022'}\" WebApplication1.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
       
     }
   }
