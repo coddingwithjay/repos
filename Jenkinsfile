@@ -6,7 +6,8 @@ pipeline{
     steps
     {
       echo 'building project'
-      bat "\"${tool 'MSBuild-v4.0.30319'}\" WebApplication1.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+      sh "\"${tool 'MSBuild-v4.0.30319'}\" WebApplication1.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+      
     }
   }
     stage("test")
